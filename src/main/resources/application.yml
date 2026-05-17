@@ -1,0 +1,13 @@
+spring:
+  data:
+    mongodb:
+      main:
+      uri: mongodb+srv://monukumar05062004:sonukumar8002671087@cluster0.h2qluj0.mongodb.net/journal?retryWrites=true&w=majority&appName=Cluster0
+      auto-index-creation: true
+  main:
+    allow-circular-references: true
+server:
+  port: 8080
+
+
+
